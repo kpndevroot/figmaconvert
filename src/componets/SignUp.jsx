@@ -1,12 +1,14 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
-import "./login.css";
+import { BsTelephone, BsFillTelephoneFill } from "react-icons/bs";
+import { AiTwotoneHome } from "react-icons/ai";
 import { Outlet, Link } from "react-router-dom";
-function Login() {
+function SignUp() {
   return (
-    <div className="login">
-      <div className="login-div">
+    <div className="login signup">
+      {/*  */}
+      <div className="sign-div">
         <div className="button-div">
           <Link to="/">
             <div className="signInBtn">
@@ -32,7 +34,42 @@ function Login() {
             </div>
           </div>
           <div className="form-group">
+            <h3 className="formLabel">mobile</h3>
+            <div className="input-container">
+              <BsFillTelephoneFill className="input-icon" />
+              <input
+                type="tel"
+                placeholder="mob"
+                className="email login-input"
+              />
+            </div>
+          </div>
+
+          <div className="form-group">
+            <h3 className="formLabel">Address</h3>
+            <div className="input-container">
+              <AiTwotoneHome className="input-icon" />
+              <input
+                type="text"
+                placeholder="address"
+                className="email login-input"
+              />
+            </div>
+          </div>
+
+          <div className="form-group">
             <h3 className="formLabel">Password</h3>
+            <div className="input-container">
+              <RiLockPasswordFill className="input-icon" />
+              <input
+                type="password"
+                placeholder="Enter your password"
+                className="email login-input"
+              />
+            </div>
+          </div>
+          <div className="form-group">
+            <h3 className="formLabel">Re-enter Password</h3>
             <div className="input-container">
               <RiLockPasswordFill className="input-icon" />
               <input
@@ -49,8 +86,8 @@ function Login() {
 
             <div className="login-link">
               <h6>
-                Don't have a account ?{" "}
-                <Link to="/sign">
+                Don't have a account ?
+                <Link to="/">
                   <a href="">Sign up</a>
                 </Link>
               </h6>
@@ -62,4 +99,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default SignUp;
