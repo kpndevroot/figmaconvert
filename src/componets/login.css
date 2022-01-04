@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+.login {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0d6efd; */
+  background: url(../../public/stylish-wavy-pattern_1409-1077\ 1.svg) no-repeat
+    center;
+  background-size: cover;
+  background-blend-mode: lighten !important;
+
+  background-blend-mode: soft-light !important;
+}
+.login-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 565px;
+  height: 763px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.login-div .button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+.login-div .signInBtn {
+  display: flex;
+  width: 195px;
+  height: 50px;
+  /* background: #0d6efd; */
+  border-radius: 37px;
+  margin: 0 0.8rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  color: #0d6efd;
+}
+.login-div .signInBtn:hover {
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  color: #fff;
+}
+.login-div .button-div .signInBtn:active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.login-div .button-div .signInBtn:focus {
+  background-color: #0d6efd;
+  color: #fff;
+}
+.login-div .button-div .signInBtn::after {
+  background-color: #0d6efd;
+  color: #fff;
+}
+.signBtnSubmit {
+  background-color: #0d6efd;
+  color: #fff !important;
+}
+
+.signInBtn .btn-font {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "DM Sans", sans-serif;
+  /* color: #fff; */
+}
+.login .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 1rem;
+}
+.login .form-group {
+  margin: 1rem;
+  /* width: 100%; */
+  /* padding: 1rem; */
+}
+
+.login .formLabel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 23px;
+  text-align: left !important;
+  color: #000000;
+  margin: 10px;
+}
+.input-container {
+  width: 100%;
+  align-items: center;
+}
+.login .login-input {
+  width: 410px;
+  height: 56px;
+  background: rgba(13, 110, 253, 0.05);
+  border: 1px solid #004bba;
+  box-sizing: border-box;
+  border-radius: 35px;
+  text-align: center;
+  font-size: 16px;
+}
+.login .input-icon {
+  position: absolute;
+  min-width: 20px;
+  min-height: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  color: #004bba;
+  opacity: 0.9;
+}
+.login .input-icon:hover,
+.login .input-icon:active,
+.login .input-icon:focus {
+  opacity: 1;
+}
+.login-div .submit-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.login-div .submit-div h6 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.login .login-link {
+  padding: 1rem;
+}
+.login .login-link a {
+  font-family: "DM Sans", sans-serif;
+  color: #004bba;
+}
