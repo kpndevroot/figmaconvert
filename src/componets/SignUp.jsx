@@ -11,14 +11,14 @@ function SignUp() {
       <div className="sign-div">
         <div className="button-div">
           <Link to="/">
-            <div className="signInBtn">
+            <a className="signInBtn ">
               <h6 className="btn-font">Sign in</h6>
-            </div>
+            </a>
           </Link>
           <Link to="/sign">
-            <div className="signInBtn">
+            <a className="signInBtn btn-active">
               <h6 className="btn-font">Sign up</h6>
-            </div>
+            </a>
           </Link>
         </div>
         <div className="form-container">

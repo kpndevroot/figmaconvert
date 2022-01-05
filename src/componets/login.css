@@ -8,9 +8,8 @@
   /* background-color: #0d6efd; */
   background: url(../../public/stylish-wavy-pattern_1409-1077\ 1.svg) no-repeat
     center;
-  background-size: cover;
-  background-blend-mode: lighten !important;
-
+  background-size: 100%;
+  /* background-blend-mode: lighten !important; */
   background-blend-mode: soft-light !important;
 }
 .login-div {
@@ -23,12 +22,13 @@
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  padding: 20px;
 }
 .login-div .button-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
 }
 .login-div .signInBtn {
   display: flex;
@@ -42,6 +42,10 @@
   align-items: center;
 
   color: #0d6efd;
+}
+.btn-active {
+  background-color: #0d6efd;
+  color: #fff !important;
 }
 .login-div .signInBtn:hover {
   background-color: #0d6efd;
@@ -64,6 +68,7 @@
 .signBtnSubmit {
   background-color: #0d6efd;
   color: #fff !important;
+  margin: 1rem;
 }
 
 .signInBtn .btn-font {
@@ -150,6 +155,8 @@
   color: #004bba;
 }
 
+/* sign up section css */
+
 .sign-div {
   display: flex;
   flex-direction: column;
@@ -165,7 +172,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 .sign-div .signInBtn {
   display: flex;
@@ -245,4 +252,193 @@
 .login .login-link a {
   font-family: "DM Sans", sans-serif;
   color: #004bba;
+}
+
+/* media queries */
+
+@media (max-width: 994px) {
+  .login {
+    width: 100%;
+    height: 100%;
+    background: url(../../public/stylish-wavy-pattern_1409-1077\ 1.svg) repeat
+      center;
+  }
+  .login-div {
+    width: 500px;
+    height: 600px;
+  }
+  .login-div .signInBtn {
+    /* display: flex; */
+    width: 150px;
+    height: 45px;
+    text-align: center;
+  }
+  .signInBtn .btn-font {
+    font-size: 16px;
+    text-align: center;
+  }
+  .login .login-input {
+    width: 380px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  /* sign up media query */
+  .sign-div {
+    width: 500px;
+    height: 800px;
+  }
+  .sign-div .signInBtn {
+    /* display: flex; */
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    /* padding-bottom: 1rem; */
+  }
+  .signInBtn .btn-font {
+    font-size: 16px;
+    text-align: center;
+  }
+  .sign-div .login-input {
+    width: 380px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .sign-div .form-group {
+    margin: 0.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .login {
+    width: 100%;
+    height: 100%;
+    background: url(../../public/stylish-wavy-pattern_1409-1077\ 1.svg) repeat
+      center;
+  }
+  .login-div {
+    width: 410px;
+    height: 600px;
+  }
+  .login-div .signInBtn {
+    /* display: flex; */
+    width: 150px;
+    height: 45px;
+    text-align: center;
+  }
+  .signInBtn .btn-font {
+    font-size: 16px;
+    text-align: center;
+  }
+  .login .login-input {
+    width: 350px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  /* sign up media query */
+  /* sign up media query */
+  .sign-div {
+    width: 450px;
+    height: 700px;
+  }
+  .sign-div .signInBtn {
+    /* display: flex; */
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    /* padding-bottom: 1rem; */
+  }
+  .signInBtn .btn-font {
+    font-size: 16px;
+    text-align: center;
+  }
+  .sign-div .login-input {
+    width: 380px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .sign-div .form-group {
+    margin: 0.4rem;
+  }
+  .sign-div .input-icon {
+    margin: 0.9rem;
+    min-width: 16px;
+    min-height: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .login {
+    width: 100%;
+    height: 100%;
+    background: url(../../public/stylish-wavy-pattern_1409-1077\ 1.svg) repeat
+      center;
+  }
+  .login-div {
+    width: 340px;
+    height: 540px;
+  }
+  .login-div .signInBtn {
+    /* display: flex; */
+    width: 120px;
+    height: 40px;
+    text-align: center;
+  }
+  .signInBtn .btn-font {
+    font-size: 15px;
+    text-align: center;
+  }
+  .login .login-input {
+    width: 300px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .login .formLabel {
+    font-size: 16px;
+  }
+  .login-div .submit-div h6 {
+    font-size: 16px;
+  }
+
+  /* sign up media query */
+  .sign-div {
+    width: 350px;
+    height: 650px;
+  }
+  .sign-div .signInBtn {
+    /* display: flex; */
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    /* padding-bottom: 1rem; */
+  }
+  .signInBtn .btn-font {
+    font-size: 14px;
+    text-align: center;
+  }
+  .sign-div .login-input {
+    width: 280px;
+    height: 34px;
+    font-size: 15px;
+  }
+  .sign-div .form-group {
+    margin: 0.6rem;
+  }
+  .sign-div .input-icon {
+    margin: 0.55rem;
+    min-width: 9px;
+    min-height: 8px;
+  }
+  .sign-div .signBtnSubmit {
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+  }
+  .sign-div .signBtnSubmit .btn-font {
+    font-size: 16px;
+  }
+  .sign-div .login-link {
+    font-size: 14px;
+  }
 }

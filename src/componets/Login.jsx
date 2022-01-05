@@ -9,7 +9,7 @@ function Login() {
       <div className="login-div">
         <div className="button-div">
           <Link to="/">
-            <div className="signInBtn">
+            <div className="signInBtn btn-active">
               <h6 className="btn-font">Sign in</h6>
             </div>
           </Link>
