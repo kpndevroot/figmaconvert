@@ -5,10 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #0d6efd; */
-  background: url(../../public/stylish-wavy-pattern_1409-1077\ 1.svg) no-repeat
-    center;
-  background-size: 100%;
+  /* background-color: #6250FE; */
+  background: url(../../public/dash\ line\ login.svg) no-repeat center;
+  background-size: fit;
   /* background-blend-mode: lighten !important; */
   background-blend-mode: soft-light !important;
 }
@@ -20,7 +19,8 @@
   width: 565px;
   height: 763px;
   background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(6px);
   border-radius: 20px;
   padding: 20px;
 }
@@ -34,39 +34,39 @@
   display: flex;
   width: 195px;
   height: 50px;
-  /* background: #0d6efd; */
+  /* background: #6250FE; */
   border-radius: 37px;
   /* margin: 0 0.1rem; */
   text-align: center;
   justify-content: center;
   align-items: center;
 
-  color: #0d6efd;
+  color: #6250fe;
 }
 .btn-active {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff !important;
 }
 .login-div .signInBtn:hover {
-  background-color: #0d6efd;
-  border: 1px solid #0d6efd;
+  background-color: #6250fe;
+  border: 1px solid #6250fe;
   color: #fff;
 }
 .login-div .button-div .signInBtn:active {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff;
 }
 
 .login-div .button-div .signInBtn:focus {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff;
 }
 .login-div .button-div .signInBtn::after {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff;
 }
 .signBtnSubmit {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff !important;
   margin: 1rem;
 }
@@ -165,7 +165,8 @@
   width: 565px;
   height: 885px;
   background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(6px);
   border-radius: 20px;
 }
 .sign-div .button-div {
@@ -178,31 +179,31 @@
   display: flex;
   width: 195px;
   height: 50px;
-  /* background: #0d6efd; */
+  /* background: #6250FE; */
   border-radius: 37px;
   margin: 0 0.8rem;
   text-align: center;
   justify-content: center;
   align-items: center;
 
-  color: #0d6efd;
+  color: #6250fe;
 }
 .sign-div .signInBtn:hover {
-  background-color: #0d6efd;
-  border: 1px solid #0d6efd;
+  background-color: #6250fe;
+  border: 1px solid #6250fe;
   color: #fff;
 }
 .sign-div .button-div .signInBtn:active {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff;
 }
 
 .sign-div .button-div .signInBtn:focus {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff;
 }
 .sign-div .button-div .signInBtn::after {
-  background-color: #0d6efd;
+  background-color: #6250fe;
   color: #fff;
 }
 
