@@ -1,0 +1,67 @@
+.home {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../../../asset/images/bg/Hero-section-bg.svg) no-repeat
+    center;
+  /* background-size: cover; */
+}
+.home .home-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .leftDiv {
+  /* background-color: red; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-end;
+  align-items: center;
+}
+.home .leftDiv .heading-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.home .leftDiv .getStarted-btn {
+  width: 250px;
+  height: 80px;
+  background: #6250fe;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 39px;
+}
+.home .rightDiv {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home .leftDiv .heading-span {
+  color: #6250fe;
+}
+
+.home .hero-heading {
+  color: #000;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 74px;
+}
+.home .hero-para {
+  width: 50%;
+  text-align: justify;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+}

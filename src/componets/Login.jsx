@@ -8,12 +8,12 @@ function Login() {
     <div className="login">
       <div className="login-div">
         <div className="button-div">
-          <Link to="/">
+          <Link to="/" className="btnLink">
             <div className="signInBtn btn-active">
               <h6 className="btn-font">Sign in</h6>
             </div>
           </Link>
-          <Link to="/sign">
+          <Link to="/sign" className="btnLink">
             <div className="signInBtn">
               <h6 className="btn-font">Sign up</h6>
             </div>
@@ -50,7 +50,7 @@ function Login() {
             <div className="login-link">
               <h6>
                 Don't have a account ?{" "}
-                <Link to="/sign">
+                <Link to="/w" className="btnLink">
                   <a href="">Sign up</a>
                 </Link>
               </h6>

@@ -10,12 +10,12 @@ function SignUp() {
       {/*  */}
       <div className="sign-div">
         <div className="button-div">
-          <Link to="/">
-            <a className="signInBtn ">
+          <Link to="/" className="btnLink">
+            <a className="signInBtn">
               <h6 className="btn-font">Sign in</h6>
             </a>
           </Link>
-          <Link to="/sign">
+          <Link to="/sign" className="btnLink">
             <a className="signInBtn btn-active">
               <h6 className="btn-font">Sign up</h6>
             </a>
@@ -87,7 +87,7 @@ function SignUp() {
             <div className="login-link">
               <h6>
                 Don't have a account ?
-                <Link to="/">
+                <Link to="/" className="btnLink">
                   <a href="">Sign up</a>
                 </Link>
               </h6>
