@@ -1,0 +1,35 @@
+.navigate {
+  background: #fff !important;
+  background-color: #fff !important;
+}
+.navigate .brand-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 55px;
+  color: #6250fe !important;
+}
+.navigate .linkContainer {
+  justify-content: center;
+  align-items: center;
+}
+.navigate .nav-links {
+  font-family: DM Sans;
+  font-style: normal !important;
+  color: #000 !important;
+  font-weight: normal !important;
+  font-size: 20px !important;
+  line-height: 26px;
+  margin: 0rem 1.5rem !important;
+  justify-content: space-between !important;
+}
+.nav-button {
+  width: 168px;
+  background-color: #6250fe !important;
+  background: #6250fe !important;
+  border-radius: 37px !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  padding: 5 20px !important;
+}
