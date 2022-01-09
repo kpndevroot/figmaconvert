@@ -1,0 +1,107 @@
+.Feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../../../asset/images/bg/plan-bg.png); */
+  background-size: cover;
+  height: 90vh;
+}
+.Feature .heading-container {
+  display: flex;
+  flex-direction: column;
+}
+.Feature .feature-heading {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 68px;
+  text-align: center;
+  color: #6250fe;
+}
+.Feature .feature-para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #8e8e8e;
+}
+.Feature .feature-container {
+  display: flex;
+  width: 60%;
+  background: #ffffff;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23333' stroke-width='2' stroke-dasharray='9' stroke-dashoffset='91' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-radius: 12.69px;
+  padding: 20px;
+}
+.Feature .f-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+}
+.Feature .list-container .mainDiv {
+  display: flex;
+  /* padding: 10px; */
+}
+.Feature .list-container .mainDiv .icon {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background: #dbdaf4;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.Feature .mainDiv .feature-icon {
+  width: 25px;
+  height: 30px;
+  color: #6250fe;
+  /* border-radius: 16.971px;    */
+}
+
+.Feature .list-container .mainDiv .featureContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 15px;
+}
+.Feature .mainDiv .featureContent h1 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 29px;
+  /* identical to box height, or 79% */
+  text-align: left;
+  color: #000000;
+}
+.Feature .mainDiv .featureContent p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  color: #000000;
+}
+
+.Feature .feature-img-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .Feature {
+    height: 70vh;
+  }
+  .Feature .feature-container {
+    width: 90%;
+    flex-direction: column-reverse !important;
+  }
+}

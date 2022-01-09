@@ -13,6 +13,7 @@
 .navigate .linkContainer {
   justify-content: center;
   align-items: center;
+  margin: 0 4rem;
 }
 .navigate .nav-links {
   font-family: DM Sans;
@@ -23,6 +24,12 @@
   line-height: 26px;
   margin: 0rem 1.5rem !important;
   justify-content: space-between !important;
+}
+.navigate .nav-links:hover {
+  color: #6250fe !important;
+}
+.navigate .nav-links:active {
+  color: #6250fe !important;
 }
 .nav-button {
   width: 168px;

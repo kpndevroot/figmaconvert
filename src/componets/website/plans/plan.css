@@ -1,0 +1,129 @@
+.Plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../asset/images/bg/plan-bg.png);
+  background-size: cover;
+  height: 90vh;
+}
+.plans-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plans-container .heading-container {
+  display: flex;
+  flex-direction: column;
+}
+.plans-container .plan-heading {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 68px;
+  text-align: center;
+  color: #6250fe;
+}
+.plans-container .plan-para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #8e8e8e;
+  background-color: #fff;
+}
+.plans-container .card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.plans-container .card-deck .plan-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5rem;
+  background: #ffffff;
+  border: 1.6px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 13px;
+  padding: 50px 20px;
+  text-align: left;
+}
+.plans-container .card-deck .plan-card .plan-name {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26.9723px;
+  line-height: 40px;
+  color: #000000;
+}
+.plans-container .card-deck .plan-card .plan-desc {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.0393px;
+  line-height: 27px;
+  color: #000000;
+}
+.plans-container .card-deck .plan-card .plan-price {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 90px;
+  color: #000000;
+}
+.plans-container .card-deck .plan-card .included-head {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.0393px;
+  line-height: 75px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.plans-container .card-deck .plan-card .card-btn {
+  width: 314px;
+  height: 49px;
+  background: #6250fe;
+  border-radius: 6.34642px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+.plans-container .card-deck .plan-card .plan-feature-container {
+  display: flex;
+  flex-direction: column;
+}
+.plans-container
+  .card-deck
+  .plan-card
+  .plan-feature-container
+  .plan-feature-item {
+  display: flex;
+}
+.plans-container .plan-card .plan-feature-item {
+  padding: 5px;
+}
+.plans-container .plan-card .plan-feature-item .tick-icon {
+  color: rgba(44, 214, 44, 0.39);
+}
+.plans-container .plan-card .plan-feature-item .plan-feature {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  margin: 0 5px;
+  letter-spacing: -0.02em;
+}
+@media (max-width: 900px) {
+  .Plans {
+    height: 100vh;
+  }
+  .plans-container {
+  }
+}

@@ -1,0 +1,62 @@
+.AboutUs {
+  display: flex;
+  width: 100vw;
+  background-image: url(../../../asset/images/bg/about-bg.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.AboutUs .aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.aboutContainer .imgContainer {
+  height: 50%;
+  z-index: 1;
+}
+.aboutContainer .imgContainer img {
+}
+.aboutContainer .contentContainer {
+  width: 70%;
+  height: 50%;
+
+  /* position: absolute; */
+  padding: 45px;
+  background: #ffffff;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23333' stroke-width='2' stroke-dasharray='9' stroke-dashoffset='91' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  border-radius: 12.69px;
+}
+.contentContainer .about-heading {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 68px;
+  text-align: left;
+  color: #6250fe;
+}
+.contentContainer .aboutPara {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+  .AboutUs .aboutContainer {
+    height: 44vh;
+  }
+  .aboutContainer .contentContainer {
+    height: 80%;
+  }
+}
